@@ -68,6 +68,7 @@
     .Button:hover{
         color:#fff;
         background-color:grey;
+        border-color: grey;
     }
         
 }
