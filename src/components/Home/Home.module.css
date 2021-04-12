@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.a:hover, .a:active{
+.a:hover, .a:visited{
     text-decoration: none;
     color: inherit;
 }
@@ -52,7 +52,7 @@
     color:#141414;
     }
 
-.Button:active
+.Button:visited
 {
     color:#fff;
  background-color:#141414;
