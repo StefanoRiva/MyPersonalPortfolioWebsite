@@ -42,7 +42,7 @@
     text-decoration: none;
 }
 
-.a:hover, .a:visited{
+.a:hover{
     text-decoration: none;
     color: inherit;
 }
@@ -59,17 +59,15 @@
         color:#141414;
     }
 
-.Button:visited{
-    color:#fff;
-    background-color:grey;
-}
-
-
 
 @media (max-width:991px){
 
     .Contact{
         height: 810px;
+    }
+    .Button:hover{
+        color:#fff;
+        background-color:grey;
     }
         
 }

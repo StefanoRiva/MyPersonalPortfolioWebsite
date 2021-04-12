@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.a:hover, .a:visited{
+.a:hover{
     text-decoration: none;
     color: inherit;
 }
@@ -52,11 +52,6 @@
     color:#141414;
     }
 
-.Button:visited
-{
-    color:#fff;
- background-color:#141414;
-}
 
 
 .PictureOfMe{
@@ -85,6 +80,14 @@
 h3{
     margin-top: 60px;
 }
+}
+
+@media (max-width:961px){
+    .Button:hover
+    {
+        color:#fff;
+        background-color:#141414;
+    }
 }
 
 @media (max-width:768px){
