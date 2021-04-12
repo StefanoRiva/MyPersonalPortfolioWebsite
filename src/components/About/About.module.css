@@ -1,0 +1,128 @@
+.Esperienze{
+    background-color: grey;
+}
+
+.Esp{
+    height: 810px;
+    padding-top: 90px;
+    text-align: center;
+    vertical-align:middle;
+    
+     
+}
+
+.Card{
+    background-color: #fff;
+    border-top: solid 2px #141414;
+}
+
+.CardOver{
+    background-color: #fff;
+    
+}
+
+
+.h1Esp{
+    margin-bottom: 55px;
+    color: #fff;
+}
+
+.pTitolo{
+    text-align: left;
+    font-weight:500;
+    font-size : 21px;
+    font-family: 'Vollkorn', serif;
+}
+
+.pPeriodo{
+    text-align: right;
+    font-weight:500;
+    font-size : 16px;
+    font-family: 'Vollkorn', serif;
+    position:relative;
+    float:right;
+    margin-top:40px;
+    margin-bottom: 0;
+    
+}
+
+.pAzienda{
+    text-align: left;
+    font-weight:500;
+    font-size : 16px;
+    font-family: 'Vollkorn', serif;
+    position: relative;
+    float :left;
+    margin-top:40px;
+    margin-bottom: 0;
+    
+}
+
+.TitleIcon{
+    margin-right:20px;
+    
+}
+
+.h2Icon{
+    display: inline;
+}
+
+
+
+
+@media (max-width:991px){
+
+    .Esp{
+        height: 1280px;
+    }
+    .CardMargin{
+        margin-top: 30px;
+    }
+    
+}
+
+@media (max-width:444px){
+    .Esp{
+        height: 1330px;
+    }
+}
+
+@media (max-width:403px){
+    .Esp{
+        height: 1430px;
+    }
+}
+
+@media (max-width:377px){
+    .Esp{
+        height: 1630px;
+    }
+
+    .pPeriodo{
+        text-align: left;
+        position:relative;
+        float:left;
+        margin-top: 0;
+        
+        
+    }
+    
+    .pAzienda{
+        text-align: left;
+        position:relative;
+        float:left;
+        margin-right:100px;
+    
+}
+}
+
+@media (max-width:345px){
+   
+   
+    .pAzienda{
+           margin-right:75px;
+    
+}
+}
+
+

@@ -1,0 +1,106 @@
+.Skills{
+    height: 740px;
+    padding-top: 90px;
+    text-align: center;
+    vertical-align:middle;
+     
+}
+
+.h1Skills{
+    margin-bottom: 55px;
+}
+
+.cardHSkills{
+    background-color: grey;
+    font-weight:900;
+    font-size : 21px;
+    font-family: 'Vollkorn', serif;
+    color:white;
+    
+}
+
+.cardBSkills{
+    background-color: #d2d2d2;
+    font-weight:500;
+    font-size : 21px;
+    font-family: 'Vollkorn', serif;
+}
+
+.cardSkills{
+    margin-top:50px;
+}
+
+.TitleIcon{
+    margin-right:20px;
+    
+}
+
+.h2Icon{
+    display: inline;
+    font-weight:900;
+    font-size : 21px;
+    font-family: 'Vollkorn', serif;
+}
+
+
+
+
+@media (max-width:991px){
+
+    .Skills{
+        height: 960px;
+    }
+    .pSkills{
+        text-align: left;
+        
+    }
+    
+}
+
+@media (max-width:767px){
+
+    .Skills{
+        height: 1080px;
+    }
+
+}
+
+@media (max-width:550px){
+
+    .Skills{
+        height: 1080px;
+    }
+
+}
+
+@media (max-width:533px){
+
+    .Skills{
+        height: 1180px;
+    }
+
+}
+
+@media (max-width:432px){
+
+    .Skills{
+        height: 1250px;
+    }
+
+}
+
+@media (max-width:360px){
+
+    .Skills{
+        height: 1280px;
+    }
+
+}
+
+@media (max-width:349px){
+
+    .Skills{
+        height: 1360px;
+    }
+
+}
