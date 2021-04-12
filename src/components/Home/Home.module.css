@@ -46,11 +46,17 @@
  
 }
 
-.Button:hover, .a:active{
+.Button:hover{
     
     background-color:#fff;
     color:#141414;
     }
+
+.Button:active
+{
+    color:#fff;
+ background-color:#141414;
+}
 
 
 .PictureOfMe{

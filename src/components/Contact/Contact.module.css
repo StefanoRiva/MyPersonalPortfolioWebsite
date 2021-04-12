@@ -54,12 +54,15 @@
  border-color: grey;
 }
 
-.Button:hover, .Button:active{
+.Button:hover{
         background-color:#fff;
         color:#141414;
     }
 
-
+.Button:active{
+    color:#fff;
+    background-color:grey;
+}
 
 
 @media (max-width:991px){
