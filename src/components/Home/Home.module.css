@@ -27,9 +27,11 @@
     text-decoration: none;
 }
 
-.a:hover{
+@media (hover: hover) {
+    .a:hover{
     text-decoration: none;
     color: inherit;
+}
 }
 
 .button{
