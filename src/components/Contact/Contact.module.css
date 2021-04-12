@@ -42,11 +42,10 @@
     text-decoration: none;
 }
 
-@media (hover: hover) {
-    .a:hover{
+.a:hover, .a:active{
     text-decoration: none;
     color: inherit;
-}}
+}
 
 .Button{
  font-family: 'Vollkorn', serif;
@@ -55,12 +54,11 @@
  border-color: grey;
 }
 
-@media (hover: hover) {
-    .Button:hover{
+.Button:hover, .Button:active{
         background-color:#fff;
         color:#141414;
     }
-}
+
 
 
 

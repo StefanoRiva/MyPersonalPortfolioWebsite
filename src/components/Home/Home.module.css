@@ -27,12 +27,11 @@
     text-decoration: none;
 }
 
-@media (hover: hover) {
-    .a:hover{
+.a:hover, .a:active{
     text-decoration: none;
     color: inherit;
 }
-}
+
 
 .button{
     text-align: center;
@@ -47,7 +46,7 @@
  
 }
 
-.Button:hover{
+.Button:hover, .a:active{
     
     background-color:#fff;
     color:#141414;
