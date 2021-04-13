@@ -45,7 +45,7 @@ function Home(){
                 animate={animateTo}
                 transition={{delay:0.4}}>
                     <Button className={classes.Button} variant="outline-dark" size="lg">
-                        <a className={classes.a} href="./CurriculumRivaStefano.pdf" target = "_blank"> Download CV</a>
+                        <a className={classes.a} href="./RivaStefanoCurriculumVitae.pdf" target = "_blank"> Download CV</a>
                     </Button>
                 </motion.div>
             </Col>
